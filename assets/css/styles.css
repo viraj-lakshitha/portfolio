@@ -219,6 +219,11 @@ img{
   width: 295px;
 }
 
+.positions {
+  font-weight: 300;
+  font-size: 20px;
+}
+
 /*BUTTONS*/
 .button{
   display: inline-block;
@@ -292,13 +297,13 @@ img{
   width: 95%;
 }
 .skills__css{
-  width: 85%;
+  width: 95%;
 }
 .skills__js{
-  width: 65%;
+  width: 85%;
 }
 .skills__ux{
-  width: 85%;
+  width: 70%;
 }
 .skills__img{
   border-radius: .5rem;
