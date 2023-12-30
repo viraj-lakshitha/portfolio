@@ -35,7 +35,6 @@ jobs:
           cp index.html build/
 
       - name: Deploy to S3
-        if: github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/main'
         run: aws s3 sync build s3://${{ vars.BUCKET_NAME }}
   
       
